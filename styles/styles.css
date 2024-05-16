@@ -1,0 +1,325 @@
+body{
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px; 
+}
+
+
+li a:hover {
+    background-color: #038cdb;
+    border-radius: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    background-color: #333; 
+    height: 100px;
+    border-bottom: 10px solid #038cdb ;
+}
+
+
+.menu1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    background-color: #333; 
+    height: 100px;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    margin-right: 15px;
+    width: 100px;
+    text-align: right;
+
+}
+
+.emai{
+    width: 350px;
+    height: 35px;
+}
+
+input[type="submit"] {
+    margin-left: 10px;
+    margin-right: 140px;
+    background-color: rgb(209, 97, 6);
+    width: 120px;
+    height: 43px;
+}
+.fond1{
+    background-image: url(../assets/cabecera.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.fond1 h1{
+        color: aliceblue;
+        font-size: 70px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 100px;
+    
+}
+.fond1 p{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.menu h1 {
+    margin: 0; 
+    color: white; 
+    margin-left: 150px;
+}
+.menu1 h1 {
+    margin: 0; 
+    color: white; 
+    margin-left: 150px;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 110px;
+}
+
+.menu li {
+    margin-left: 0px; 
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.prim{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+
+}
+.prom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 40px;
+
+    
+}
+.prom1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: column;
+   
+
+}
+
+section img {
+    width: 200px;
+    display: flex;
+    margin-left: 120px;
+
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #038cdb;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+
+}
+
+.section1{
+    width: 1300px;
+   border-width: 200px;
+   justify-content: center;
+   align-items: center;
+}
+.section2 h2{
+    width: 600px;
+    justify-content: space-between;
+    
+}
+.as{
+    width: 1000px;
+    margin-left: 150px;
+}
+.os{
+    width: 990px;
+    background-color: #333;
+    justify-content: center;
+    margin-left: 150px;
+    color: azure;
+    margin-top: 20px;
+    padding: 20px;
+    
+    
+}
+.us{
+    background-image: url(../assets/891.jpg);
+    width: 1000px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: repeat;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 15px;
+    
+   
+} 
+.es{
+    background-color: #333;
+    width: 400px;
+    margin-right: 230px;
+    margin-top: 50px;
+    color: aliceblue;
+    padding: 15px;
+    
+    
+}
+.footer1{
+    width: 100%;
+    height: 60px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    background-color: #038cdb;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.footer2{
+    width: 100%;
+    height: 80px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    background-color: #038cdb;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.serv{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    flex-direction: column;
+    padding: 1px;
+    margin-left: 160px;
+
+}
+
+.h1prom{
+    margin-right: 660px;
+}
+.is{
+    background-color:#333;
+    width: 400px;
+    margin-right: 220px;
+    margin-top: 50px;
+    color: aliceblue;
+    padding: 15px;
+    
+    
+}
+.ls{
+    background-image: url(../assets/mapaGoogle.png);
+    width: 400px;
+    height: 300px;
+    margin-right: 150px;
+    margin-top: 50px;
+    color: aliceblue;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 1000px;
+    margin-left: 160px;
+    margin-top: 10px;
+    
+}
+.flex1{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 1000px;
+    margin-left: 160px;
+    margin-top: 10px;
+    
+}
+.flex input{
+    height: 40px;
+}
+
+.fromcont{
+    margin-top: 100px;
+}
+.azul{
+    color: #000000;
+}
+
+.form1{
+    margin-right: 100px;
+}
